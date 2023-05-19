@@ -1,0 +1,25 @@
+find:
+   const p = await Post.find();
+   console.log(p);
+
+find by id:
+
+const id = "642a6b142e7f013c05728a8b"
+const l = await Post.findById(id)
+console.log(l) 
+
+find by id and update:
+
+const id = "642a6b142e7f013c05728a8b"
+    const h= await Post.findByIdAndUpdate(id,
+        { title: 'Updated blog post title' },
+        { new: true },
+       )
+    console.log(h)
+
+findby and delete:
+
+const id = "642a6b142e7f013c05728a8b"
+const m= await Post.findByIdAndDelete(id)
+console.log(m)
+
