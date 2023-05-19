@@ -5,9 +5,12 @@
 **App.js, Child.js, Parent.js for React inter component communication.**
 
 
-**Angular steps:
+**Angular steps:**
 
-**1. npm install -g @angular/cli
-**2. ng new myNewApp
-**3. cd myNewApp
-**4. ng serve
+**1. npm install -g @angular/cli**
+
+**2. ng new myNewApp**
+
+**3. cd myNewApp**
+
+**4. ng serve**
