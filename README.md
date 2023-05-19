@@ -14,3 +14,6 @@
 **3. cd myNewApp**
 
 **4. ng serve**
+
+ngrx
+**https://dzone.com/articles/angular-app-state-management-with-ngrx**
